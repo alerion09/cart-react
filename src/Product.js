@@ -6,10 +6,10 @@ const Product = (props) => {
     return (
         <>
             <div className='grid-4 grid-second-row bottom-line'>
-                <input type='image' src={process.env.PUBLIC_URL +'/images/x-img.png'} alt="Delete product" onClick={() => deleteProduct (id)}/>
+                <input type='image' src={'https://raw.githubusercontent.com/alerion09/data/main/x-img.png'} alt="Delete product" onClick={() => deleteProduct (id)}/>
             </div>
             <div className='grid-5 grid-second-row bottom-line'>
-                <img className='product-img' src={process.env.PUBLIC_URL + './images/' + image } alt="Headphones"/>   
+                <img className='product-img' src={`https://raw.githubusercontent.com/alerion09/data/main/`+ image } alt="Headphones"/>   
             </div>
             <div className='grid-second-row bottom-line'><p>{name}</p></div>
             <div className='grid-second-row bottom-line'><p>${price.toFixed(2)}</p></div>
@@ -20,7 +20,7 @@ const Product = (props) => {
                     <button onClick={()=>addProduct(id)}>+</button>
                 </div>
                 <div>
-                    <input type='image' src={process.env.PUBLIC_URL +'./images/edit-img.png'} alt="Edit" onClick={updateShoppingCart}/>
+                    <input type='image' src={'https://raw.githubusercontent.com/alerion09/data/main/edit-img.png'} alt="Edit" onClick={updateShoppingCart}/>
                 </div>    
             </div>
         </>

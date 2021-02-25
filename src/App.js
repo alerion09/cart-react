@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import './index.css'
 import Header from './Header'
 import Costs from './Costs'
 import cartProductsData from './data/cart_products.json'
