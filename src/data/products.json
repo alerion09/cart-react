@@ -4,5 +4,23 @@
     "name":"Headphones",
     "image":"headphones.png",
     "price":11.90
+  },
+  {
+    "id":2,
+    "name":"Phone Charger",
+    "image":"charger.jpg",
+    "price":9.90
+  },
+  {
+    "id":3,
+    "name":"Cable USB JACK",
+    "image":"usb-jack.jpg",
+    "price":4.90
+  },
+  {
+    "id":4,
+    "name":"Camera",
+    "image":"camera.jpg",
+    "price":31.90
   }
 ]
