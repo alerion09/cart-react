@@ -192,3 +192,37 @@ button {
         grid-column-end: 6;
     }
 }
+@media only screen and (max-width:600px) {
+    .grid-9 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        padding-top: 20px;
+    }
+    .cart-container {
+        grid-template-columns: 0.3fr 1fr 1fr 0.5fr;
+    }
+    .grid-3 {
+        display: none;
+    }
+    .grid-4, .grid-5, .grid-6, .grid-7 {
+        
+        border-bottom: none;
+    }
+    .grid-8 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        justify-content: center;
+        padding-top: 0;
+    }
+    .qty-select > input, 
+    .qty-select > button {
+    width: 30px;
+    height: 30px;
+    }
+    .product-img {
+        width: 120px;
+    }
+}
+@media only screen and (max-width:440px) {
+    
+}

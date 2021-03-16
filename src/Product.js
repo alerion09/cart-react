@@ -11,8 +11,8 @@ const Product = (props) => {
             <div className='grid-5 grid-second-row bottom-line'>
                 <img className='product-img' src={`https://raw.githubusercontent.com/alerion09/data/main/`+ image } alt="Headphones"/>   
             </div>
-            <div className='grid-second-row bottom-line'><p>{name}</p></div>
-            <div className='grid-second-row bottom-line'><p>${price.toFixed(2)}</p></div>
+            <div className='grid-6 grid-second-row bottom-line'><p>{name}</p></div>
+            <div className='grid-7 grid-second-row bottom-line'><p>${price.toFixed(2)}</p></div>
             <div className='grid-8 grid-second-row bottom-line'>
                 <div className='qty-select'>
                     <button onClick={()=>removeProduct(id)}>-</button>

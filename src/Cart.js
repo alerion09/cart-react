@@ -12,10 +12,10 @@ const Cart = (props) => {
             <div className='grid-1 bottom-line padding-bt'>
                 <p className='bold '>Product Name</p>
             </div>
-            <div>
+            <div className='grid-2'>
                 <p className='bold bottom-line padding-bt'>Unit price</p>
             </div>
-            <div>
+            <div className='grid-3'>
                 <p className='bold bottom-line padding-bt'>Qty</p>
             </div>
             {products.map((item) => {
