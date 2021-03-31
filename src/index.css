@@ -224,10 +224,13 @@ button {
     .qty-select > button {
     width: 30px;
     height: 30px;
-    -webkit-appearance: none;
     }
     .product-img {
         width: 120px;
+    }
+    .qty-select > input {
+        -webkit-appearance: none;
+        background-color: #c7c7c7;
     }
 }
 @media only screen and (max-width:440px) {
