@@ -85,6 +85,11 @@ button {
     width: 25px;
     height: 25px;
 }
+.qty-select > button {
+    -webkit-appearance: none;
+    border: 1px solid grey;
+    background-color: #ebebeb;
+}
 .qty-select > input {
     text-align: center;
 }
@@ -227,10 +232,6 @@ button {
     }
     .product-img {
         width: 120px;
-    }
-    .qty-select > input {
-        -webkit-appearance: none;
-        background-color: #c7c7c7;
     }
 }
 @media only screen and (max-width:440px) {
