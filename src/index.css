@@ -224,6 +224,7 @@ button {
     .qty-select > button {
     width: 30px;
     height: 30px;
+    -webkit-appearance: none;
     }
     .product-img {
         width: 120px;
